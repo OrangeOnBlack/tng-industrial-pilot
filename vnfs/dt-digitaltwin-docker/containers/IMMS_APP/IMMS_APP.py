@@ -902,7 +902,7 @@ def main():
     # Instantiate
     # IMM1 = vIMM()
     start_webapp()
-    start_EM63()
+    # start_EM63()
 
     if args.enableOPCUA:
         start_OPCUA_server()

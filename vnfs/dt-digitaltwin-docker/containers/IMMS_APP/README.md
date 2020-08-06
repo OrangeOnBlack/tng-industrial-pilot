@@ -48,6 +48,7 @@ With `--enableOPCUA` you can enable an integrated OPC UA server.
 The two environment variables  `OPCUA_HOST` and `OPCUA_PORT` can be set accordingly, if it is enabled.
 Default values are `OPCUA_HOST="localhost"` and `OPCUA_PORT="4840"`.
 The following Variables are created within the ``IMMS`` object on the server and get updated periodically:
+
 ```
 DATE <Double>
 TIME <String>
