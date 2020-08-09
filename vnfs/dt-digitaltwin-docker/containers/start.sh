@@ -31,5 +31,5 @@ mount -t cifs -o guest //$DT_EM63_SHARE_HOST/guest $DT_EM63_SHARE
 
 echo "DT: Starting DigitalTwin generator ..."
 cd IMMS_APP
-python3 IMMS_APP.py --autostart
+python3 IMMS_APP.py --autostart --enableOPCUA
 cd /
